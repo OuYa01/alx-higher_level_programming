@@ -13,5 +13,4 @@ def uppercase(str):
         if (unicd in range(97, 123)):
             unicd = unicd - 32
         print("{}".format(chr(unicd)), end='')
-
     print()
