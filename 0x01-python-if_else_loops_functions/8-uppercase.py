@@ -8,9 +8,8 @@ uppercase - function that prints a string in uppercase followed by a new line
 
 def uppercase(str):
     for c in str:
-        unicd = ord(c)
-        '#check if the char is lower case 97 = a and 122 = z'
+        unicd = chr(ord(c))
         if (unicd in range(97, 123)):
-            unicd = unicd - 32
-        print("{}".format(chr(unicd)), end='')
+            unicd = chr(unicd - 32)
+        print("{}".format(unicd), end='')
     print()
