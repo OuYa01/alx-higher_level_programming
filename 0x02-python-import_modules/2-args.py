@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-import sys
+if __name__ == "__main__":
+    import sys
 count = len(sys.argv)
 print("{} arguments:".format(count - 1))
 for i in range(1, count):
