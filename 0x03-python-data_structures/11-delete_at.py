@@ -8,6 +8,6 @@ def delete_at(my_list=[], idx=0):
 
     Return: the nwe list
     '''
-    if (idx > 0 or idx < len(my_list)) or my_list is not None:
+    if (my_list is not None and 0 <= idx < len(my_list)):
         del my_list[idx]
     return (my_list)
