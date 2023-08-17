@@ -15,8 +15,8 @@ def roman_to_int(roman_string):
     }
     number = 0
     previos_value = 0
-    if not roman_string:
-        return (None)
+    if not roman_string or None:
+        return (0)
     else:
         for i in roman_string:
             value = roman_to_decimal[i]
