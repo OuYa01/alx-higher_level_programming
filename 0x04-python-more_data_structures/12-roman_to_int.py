@@ -15,7 +15,7 @@ def roman_to_int(roman_string):
     }
     number = 0
     previos_value = 0
-    if not roman_string or roman_string is None:
+    if type(roman_string) != str or roman_string is None:
         return (0)
     else:
         for i in roman_string:
