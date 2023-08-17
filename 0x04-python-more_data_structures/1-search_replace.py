@@ -8,3 +8,5 @@ def search_replace(my_list, search, replace):
         s = new_list.index(search)
         new_list[s] = replace
         return (new_list)
+    else:
+        return (my_list)
