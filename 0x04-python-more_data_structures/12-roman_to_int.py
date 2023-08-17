@@ -15,11 +15,14 @@ def roman_to_int(roman_string):
     }
     number = 0
     previos_value = 0
-    for i in roman_string:
-        value = roman_to_decimal[i]
-        if value > previos_value:
-            number += value - (2 * previos_value)
-        else:
-            number += value
-        previos_value = value
+    if not roman_string:
+        return (None)
+    else:
+        for i in roman_string:
+            value = roman_to_decimal[i]
+            if value > previos_value:
+                number += value - (2 * previos_value)
+            else:
+                number += value
+            previos_value = value
     return (number)
