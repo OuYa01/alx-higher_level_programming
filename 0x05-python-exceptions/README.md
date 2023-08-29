@@ -31,5 +31,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 | 5. Raise exception | [5-raise_exception.py](./5-raise_exception.py) |
 | 6. Raise a message | [6-raise_exception_msg.py](./6-raise_exception_msg.py) |
 
-!alt text (pics/pic.jpg)
+<img src=“pics/pic.jpg”>
 
