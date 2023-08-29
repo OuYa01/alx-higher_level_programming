@@ -1,4 +1,5 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
+
 def safe_print_list_integers(my_list=[], x=0):
     '''
     safe_print_list_integres - prints a list of integers
