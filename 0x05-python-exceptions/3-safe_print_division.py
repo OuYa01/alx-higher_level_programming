@@ -12,14 +12,9 @@ def safe_print_division(a, b):
     try:
         result = a / b
 
-        if result > 0:
-            return (result)
-
     except (ZeroDivisionError, ValueError):
-        return (None)
+        result = None
 
     finally:
-        if 'result' in locals():
             print("Inside result: {}".format(result))
-        else:
-            print("Inside result: {}".format(None))
+            return (result)
