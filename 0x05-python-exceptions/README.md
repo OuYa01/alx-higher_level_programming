@@ -1,5 +1,7 @@
 # Project: 0x05. Python - Exceptions
-
+<div style="text-align:center;">
+  <img src="https://github.com/OuYa01/alx-higher_level_programming/blob/master/0x05-python-exceptions/pics/pic.jpg" alt="Image" />
+</div>
 ## Resources
 
 #### Read or watch:
@@ -31,6 +33,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 | 5. Raise exception | [5-raise_exception.py](./5-raise_exception.py) |
 | 6. Raise a message | [6-raise_exception_msg.py](./6-raise_exception_msg.py) |
 
-<div style="text-align:center;">
-  <img src="https://github.com/OuYa01/alx-higher_level_programming/blob/master/0x05-python-exceptions/pics/pic.jpg" alt="Image" />
-</div>
+
