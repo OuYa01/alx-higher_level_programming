@@ -20,13 +20,6 @@ class Square:
         """
         self.__size = size
 
-        if not isinstance(size, int):
-            raise TypeError("size must be integre")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
-        else:
-            self.__size = size
-
     def area(self):
         """
         Calculate and return the area of the square.
@@ -61,5 +54,5 @@ class Square:
             raise ValueError("size must be integer")
         elif value < 0:
             raise TypeError("size must be >= 0")
-        
-        self.__size = value
+        else:
+            self.__size = value
