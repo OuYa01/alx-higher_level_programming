@@ -44,8 +44,6 @@ class Square:
     @property
     def size(self):
         """
-        Get the size (side length) of the square.
-
         Returns:
             int: The size of the square.
         """
@@ -63,7 +61,7 @@ class Square:
             ValueError: If the value is not an integer.
             TypeError: If the value is  < 0
         """
-        self.__size = value
+
         if not isinstance(value, int):
             raise ValueError("size must be integer")
         elif value < 0:
