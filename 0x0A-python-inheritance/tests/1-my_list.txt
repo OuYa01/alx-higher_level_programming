@@ -1,0 +1,24 @@
+===========================
+Test to 1-my_list - module
+***************************
+
+# Create an instance of MyList
+>>> my_list = MyList()
+
+# Append some elements to the list
+>>> my_list.append(3)
+>>> my_list.append(1)
+>>> my_list.append(2)
+
+# Verify the content of the list
+>>> my_list.print_stored()
+[3, 1, 2]
+
+# Test the sorting functionality
+>>> my_list.print_sorted()
+[1, 2, 3]
+
+# Test the string representation
+>>> print(my_list)
+[1, 2, 3]
+
