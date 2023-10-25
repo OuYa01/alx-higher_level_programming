@@ -1,3 +1,0 @@
-# Python - Almost a circle
-
-
